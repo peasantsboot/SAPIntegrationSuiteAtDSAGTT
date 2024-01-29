@@ -23,7 +23,14 @@ SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration 
 [Start with the Right Mind-Set and Learn How to Modernize Your Integration](https://github.com/peasantsboot/MigrationExercise)
 
 Viel Spass.
-  
+
+## Systemzugriff
+
+Zur Durchführung der Übungen stellen wir Ihnen ein SAP Integration Suite tenant zur Verfügung:
+
+- Zugriff über: [**SAP Integration Suite tenant**](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home)
+- Als Nutzer verwenden Sie bitte **userXX**, ID **XX** und Passwort werden ihnen von der Übungsleitung zugewiesen bzw. genannt
+
 <!-- **OR** Link to the Tutorial Navigator for example... 
 Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 -->
