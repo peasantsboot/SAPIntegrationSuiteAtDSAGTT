@@ -4,7 +4,7 @@
 
 SAP Integration Suite ist SAP’s strategische Integration Platform-as-a-Service für die Integration von SAP und nicht-SAP Lösungen. Die SAP Integration Suite umfasst verschiedene Integrationstechnologien die es ihnen erlaubt ihre Systeme innerhalb ihrer hybriden Landschaft über den Nachrichtenaustausch, über APIs oder Events miteinander zu verbinden, sei es für A2A, B2B oder B2G, sei es in der Cloud oder on-premises, etc.
 
-Mehr Infos finden sie [hier](https://help.sap.com/docs/integration-suite/sap-integration-suite/what-is-sap-integration-suite).
+Mehr Infos finden Sie [hier](https://help.sap.com/docs/integration-suite/sap-integration-suite/what-is-sap-integration-suite).
 
 ## Übungen
 
