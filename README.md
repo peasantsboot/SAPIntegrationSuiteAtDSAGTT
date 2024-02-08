@@ -29,7 +29,7 @@ Viel Spass.
 Zur Durchführung der Übungen stellen wir Ihnen ein SAP Integration Suite tenant zur Verfügung:
 
 - Zugriff über: [**SAP Integration Suite tenant**](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home)
-- Als Nutzer verwenden Sie bitte **userXX** mit Passwort **Welcome1**, ID **XX** wird ihnen von der Übungsleitung zugewiesen bzw. genannt
+- Als Nutzer verwenden Sie bitte **userXX**, ID **XX** und Passwort wird ihnen von der Übungsleitung zugewiesen bzw. genannt
 
 <!-- **OR** Link to the Tutorial Navigator for example... 
 Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
