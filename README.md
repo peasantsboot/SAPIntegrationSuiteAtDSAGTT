@@ -1,4 +1,4 @@
-# SAP Integration Suite Übungen @ DSAG Technologietage 2024
+# SAP Integration Suite Übungen @ DSAG Jahreskongress 2024
 
 ## Übersicht
 
