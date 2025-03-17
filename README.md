@@ -1,4 +1,4 @@
-# SAP Integration Suite Übungen @ DSAG Jahreskongress 2025
+# SAP Integration Suite Übungen @ DSAG Technologietage 2025
 
 ## Übersicht
 
