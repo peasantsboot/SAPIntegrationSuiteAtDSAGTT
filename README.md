@@ -8,17 +8,27 @@ Mehr Infos finden Sie [hier](https://help.sap.com/docs/integration-suite/sap-int
 
 ## Übungen
 
-Wir stellen Ihnen zwei Übungen bzgl der SAP Integration Suite zur Verfügung:
+Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung:
+- Für den Einstieg können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
+- Wenn Sie an Event-getriebenen Architekturen und deren Umsetzung mit der SAP Integration Suite interessiert sind, emfehlen wir Ihnen die zweite Übung.
 
 ### Hybride Integration mit der Edge Integration Cell
+
+Für den Einstieg können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
 
 Edge Integration Cell ist eine neue Laufzeit der SAP Integration Suite, die sie ergänzend zu den Tools und der Laufzeit in der Cloud in ihrem eigenem Netzwerk oder ihrer eigenen privaten Cloudumgebung betreiben können. Dies erlaubt es ihnen, den Nachrichtenaustausch zwischen Systemen ausschliesslich lokal zu prozessieren, sei es aus Datenschutz-oder Laufzeitgründen. In dieser Übung können sie sich mit der Funktionalität der Edge Integration Cell anhand eines Standardintegrationsszenarios vertraut machen.
 
 [Discover next-generation hybrid integrations with Edge Integration Cell](https://github.com/peasantsboot/EdgeIntegrationCellExercise)
 
+### Event-getriebene Architekturen via SAP Integration Suite, Advanced Event Mesh
+
+An event-driven architecture is a software architecture using events as the core means for interaction between its software components. One of the main components of an EDA are Event Brokers. SAP's flagship event broker is SAP Integration Suite, advanced event mesh.
+
+[Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh](https://github.com/jannis-maier/AdvancedEventMeshExercise)
+
 ### Migration von SAP Process Orchestration nach SAP Integration Suite
 
-SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration laufen spätestens Ende 2030 aus der Wartung. Wenn Sie wissen möchten, welche Tools Sie bei der Transformation von SAP Process Orchestration nach SAP Integration Suite unterstützen können, würde ich Ihnen diese Übung empfehlen. Sie lerne dabei sowohl das Migration Assessment als auch das Migration Tool kennen.
+SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration laufen spätestens Ende 2030 aus der Wartung. Wenn Sie wissen möchten, welche Tools Sie bei der Transformation von SAP Process Orchestration nach SAP Integration Suite unterstützen können, würde ich Ihnen diese Übung empfehlen. Sie lernen dabei sowohl das Migration Assessment als auch das Migration Tool kennen.
 
 [Start with the Right Mind-Set and Learn How to Modernize Your Integration](https://github.com/peasantsboot/MigrationExercise)
 
