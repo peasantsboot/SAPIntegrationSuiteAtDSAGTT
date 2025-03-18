@@ -9,20 +9,19 @@ Mehr Infos finden Sie [hier](https://help.sap.com/docs/integration-suite/sap-int
 ## Übungen
 
 Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung:
-- Für den Einstieg können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
-- Wenn Sie an Event-getriebenen Architekturen und deren Umsetzung mit der SAP Integration Suite interessiert sind, emfehlen wir Ihnen die zweite Übung.
+- Für den **Einstieg** können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
+- Wenn Sie an **Ereignis-gesteuerten Architekturen** und deren Umsetzung mit der SAP Integration Suite, Advanced Event Mesh, interessiert sind, emfehlen wir Ihnen die zweite Übung.
+- Haben Sie noch eine **SAP Process Orchestration** im Einsatz und planen den Umstieg auf SAP Integration Suite? Dann lernen Sie in der dritten Übung wie man solch eine Umsetzung evaluiert und über das Migrationstool durchführt.
 
 ### Hybride Integration mit der Edge Integration Cell
-
-Für den Einstieg können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
 
 Edge Integration Cell ist eine neue Laufzeit der SAP Integration Suite, die sie ergänzend zu den Tools und der Laufzeit in der Cloud in ihrem eigenem Netzwerk oder ihrer eigenen privaten Cloudumgebung betreiben können. Dies erlaubt es ihnen, den Nachrichtenaustausch zwischen Systemen ausschliesslich lokal zu prozessieren, sei es aus Datenschutz-oder Laufzeitgründen. In dieser Übung können sie sich mit der Funktionalität der Edge Integration Cell anhand eines Standardintegrationsszenarios vertraut machen.
 
 [Discover next-generation hybrid integrations with Edge Integration Cell](https://github.com/peasantsboot/EdgeIntegrationCellExercise)
 
-### Event-getriebene Architekturen via SAP Integration Suite, Advanced Event Mesh
+### Ereignis-gesteuerte Architekturen via SAP Integration Suite, Advanced Event Mesh
 
-An event-driven architecture is a software architecture using events as the core means for interaction between its software components. One of the main components of an EDA are Event Brokers. SAP's flagship event broker is SAP Integration Suite, advanced event mesh.
+Eine Ereignis-gesteuerte Architektur ist eine Softwarearchitektur, die Ereignisse als zentrales Mittel zur Interaktion zwischen ihren Softwarekomponenten nutzt. Eine der Hauptkomponenten einer Ereignis-gesteuerten Architektur sind Event Broker wie beispielsweise die von SAP angebotene SAP Integration Suite, Advanced Event Mesh. In dieser Übung lernen Sie einige Eigenschaften der SAP Integration Suite, Advanced Event Mesh kennen um die Grundlagen Ereignis-gesteuerter Architekturen zu verstehen.
 
 [Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh](https://github.com/jannis-maier/AdvancedEventMeshExercise)
 
@@ -36,10 +35,7 @@ Viel Spass.
 
 ## Systemzugriff
 
-Zur Durchführung der Übungen stellen wir Ihnen ein SAP Integration Suite tenant zur Verfügung:
-
-- Zugriff über: [**SAP Integration Suite tenant**](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home)
-- Als Nutzer verwenden Sie bitte **userXX**, ID **XX** und Passwort wird ihnen von der Übungsleitung zugewiesen bzw. genannt
+Zur Durchführung der Übungen stellen wir Ihnen ein SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Die Benutzer- und Zugriffsinformationen finden Sie in den jeweiligen Übungsbeschreibungen.
 
 <!-- **OR** Link to the Tutorial Navigator for example... 
 Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
