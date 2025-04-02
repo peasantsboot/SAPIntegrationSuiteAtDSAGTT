@@ -35,9 +35,12 @@ Viel Spass.
 
 ## Systemzugriff
 
-Zur Durchführung der Übungen stellen wir Ihnen ein SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Die Benutzer- und Zugriffsinformationen finden Sie in den jeweiligen Übungsbeschreibungen.
+Zur Durchführung der Übungen stellen wir Ihnen einen SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Die Benutzer- und Zugriffsinformationen für den Advanced Event Mesh Broker finden Sie in den jeweiligen Übungsbeschreibungen.
 
-Alternativen tenant finden sie [hier](https://cpisuite-us-07.integrationsuite.cfapps.us10.hana.ondemand.com/shell/design).
+Für die SAP Integration Suite können Sie den folgenden tenant verwenden:
+
+- [**SAP Integration Suite tenant**](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home).
+- Benutzer **userXX** mit **XX** eine beliebige zweistellige Zahl und Passwort **Welcome1**.
 
 <!-- **OR** Link to the Tutorial Navigator for example... 
 Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
