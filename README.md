@@ -1,4 +1,4 @@
-# SAP Integration Suite Übungen @ DSAG Technologietage 2025
+# SAP Integration Suite Übungen @ DSAG Technologietage 2026
 
 ## Übersicht
 
@@ -9,42 +9,44 @@ Mehr Infos finden Sie [hier](https://help.sap.com/docs/integration-suite/sap-int
 ## Übungen
 
 Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung:
-- Für den **Einstieg** können Sie die erste Übung machen. Hier lernen Sie wie man eine Standardintegration verwenden und einrichten kann. Ferner nutzen sie die Modellierungsumgebung der SAP Integration Suite für die Erstellung eines einfachen Integrationsszenarios mit integrierten Access bzw. Traffic Policies. Bei der Laufzeit können Sie sich dann entscheiden ob Sie das Szenario in der Cloud oder im lokalen Netzwerk auf der sogenannten Edge Integration Cell deployen und ausführen.
-- Wenn Sie an **Ereignis-gesteuerten Architekturen** und deren Umsetzung mit der SAP Integration Suite, Advanced Event Mesh, interessiert sind, emfehlen wir Ihnen die zweite Übung.
+- Für den **Einstieg** können Sie die erste Übung machen. Diese Übung wird empfohlen wenn Sie bisher noch keine Erfahrungen mit der SAP Integration Suite gesammelt haben. Hier lernen Sie anhand eines einfachen Szenarios wie man einen sogenannten Integration Flow erstellt, deployed und testet.
+- Falls Sie mit der SAP Integration Suite bereits vertraut sind, lernen Sie in der zweiten Übung welche Schritte notwendig sind um Nachrichten mit der Quality of Service **Exactly Once In Order** zu prozessieren.
 - Haben Sie noch eine **SAP Process Orchestration** im Einsatz und planen den Umstieg auf SAP Integration Suite? Dann lernen Sie in der dritten Übung wie man solch eine Umsetzung evaluiert und über das Migrationstool durchführt.
 
-### Hybride Integration mit der Edge Integration Cell
+### "Getting Started" Szenario (ca. 30 mins)
 
-Edge Integration Cell ist eine neue Laufzeit der SAP Integration Suite, die sie ergänzend zu den Tools und der Laufzeit in der Cloud in ihrem eigenem Netzwerk oder ihrer eigenen privaten Cloudumgebung betreiben können. Dies erlaubt es ihnen, den Nachrichtenaustausch zwischen Systemen ausschliesslich lokal zu prozessieren, sei es aus Datenschutz-oder Laufzeitgründen. In dieser Übung können sie sich mit der Funktionalität der Edge Integration Cell anhand eines Standardintegrationsszenarios vertraut machen.
+Sammeln Sie die ersten Erfahrungen mit der SAP Integration Suite. In dieser Übung lernen Sie wie man in der Cloud Integration, einer Funktionalität der SAP Integartion Suite, ein einfaches Integrationsszenario implementiert und testet.
 
-[Discover next-generation hybrid integrations with Edge Integration Cell](https://github.com/peasantsboot/EdgeIntegrationCellExercise)
+[Design and Deploy Your First Integration Flow](https://github.com/peasantsboot/GettingStartedExercise)
 
-### Ereignis-gesteuerte Architekturen via SAP Integration Suite, Advanced Event Mesh
+### Exactly Once In Order delivery mittels SAP Integration Suite (ca. 2h)
 
-Eine Ereignis-gesteuerte Architektur ist eine Softwarearchitektur, die Ereignisse als zentrales Mittel zur Interaktion zwischen ihren Softwarekomponenten nutzt. Eine der Hauptkomponenten einer Ereignis-gesteuerten Architektur sind Event Broker wie beispielsweise die von SAP angebotene SAP Integration Suite, Advanced Event Mesh. In dieser Übung lernen Sie einige Eigenschaften der SAP Integration Suite, Advanced Event Mesh kennen um die Grundlagen Ereignis-gesteuerter Architekturen zu verstehen.
+In dieser Übung lernen Sie ein Integrationsszenario so einzurichten um Nachrichten mit der Quality of Service Exactly Once In Order zu prozessieren, d.h., Nachrichten werden genau einmal an einen Empfänger übermittelt und zusätzlich in der Reihenfolge in der das sendende System die Nachrichten an die Integrationsplattform geschickt hat. Diese Übung umfasst zwei Teilbereiche die Sie unabhängig voneinander durchführen können. Im ersten Teil nutzt die Implementierung sogenannte Exclusive Queues um die Reihenfolge der prozessierten Nachrichten zu gewährleisten. Im zweiten Teil werden sogenannte Partitioned Queues verwendet. Hier nutzen wir neben der Cloud Integration die SAP Integration Suite, Advanced Event Mesh, also einen Event Broker zur Ereignis-gesteuerten Nachrichtenbearbeitung.
 
-[Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh](https://github.com/jannis-maier/AdvancedEventMeshExercise)
+[Implementing Exactly Once In Order delivery in SAP Integration Suite](https://github.com/SAP-samples/teched2025-IN163)
 
-### Migration von SAP Process Orchestration nach SAP Integration Suite
+### Migration von SAP Process Orchestration nach SAP Integration Suite (ca. 2h)
 
-SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration laufen spätestens Ende 2030 aus der Wartung. Wenn Sie wissen möchten, welche Tools Sie bei der Transformation von SAP Process Orchestration nach SAP Integration Suite unterstützen können, würde ich Ihnen diese Übung empfehlen. Sie lernen dabei sowohl das Migration Assessment als auch das Migration Tool kennen.
+SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration laufen spätestens Ende 2030 aus der Wartung. Wenn Sie wissen möchten, welche Tools Sie bei der Transformation von SAP Process Orchestration nach SAP Integration Suite unterstützen können, würde ich Ihnen diese Übung empfehlen. Sie lernen dabei sowohl das Migration Assessment als auch das Migration Tool kennen. Ferner geht die Übung auf die sogenannte Pipeline for Cloud Integration ein, eine Art Framework zur Prozessierung von Nachrichten in Pipelineschritten die eine einheitliche Nachrichtenprozessierung und Fehlerbehandlung gewährleistet.
 
-[Start with the Right Mind-Set and Learn How to Modernize Your Integration](https://github.com/peasantsboot/MigrationExercise)
+[Modernize and transform your integration to the cloud](https://github.com/SAP-samples/teched2025-IN161)
 
 Viel Spass.
 
 ## Systemzugriff
 
-Zur Durchführung der Übungen stellen wir Ihnen einen SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Die Benutzer- und Zugriffsinformationen für den Advanced Event Mesh Broker finden Sie in den jeweiligen Übungsbeschreibungen.
+Zur Durchführung der Übungen stellen wir Ihnen einen SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Je nach Übung brauchen Sie nur Zugriff auf den SAP Integration Suite tenant oder noch zusätzlich für den Advanced Event Mesh Broker. Um einen Benutzer für die Systeme und die Zugriffsinformationen zu erhalten, folgen Sie bitte der Anleitung:
 
-Für die SAP Integration Suite können Sie den folgenden tenant verwenden:
+1. Öffnen Sie [Trial Area - System Access for Integration Exercises](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQACG-6lyRm1SLANwmWnpog9Af8ON7ob9cFIccx3ncumFxY)
 
-- [**SAP Integration Suite tenant**](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home).
-- Benutzer **userXX** mit **XX** eine beliebige zweistellige Zahl und Passwort **Welcome1**.
+   Passwort für die Liste:
 
-<!-- **OR** Link to the Tutorial Navigator for example... 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
--->
+```yaml
+DsagTT2026!
+```
+   
+2. Wählen Sie in der Liste einen der Benutzer der noch nicht vergeben ist.
+3. Markieren Sie dann in der Liste den Benutzer den Sie für die Übungen verwenden werden als "bereits verwendet".
 
 <!--
 **IMPORTANT**
