@@ -13,6 +13,8 @@ Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung:
 - Falls Sie mit der SAP Integration Suite bereits vertraut sind, lernen Sie in der zweiten Übung welche Schritte notwendig sind um Nachrichten mit der Quality of Service **Exactly Once In Order** zu prozessieren.
 - Haben Sie noch eine **SAP Process Orchestration** im Einsatz und planen den Umstieg auf SAP Integration Suite? Dann lernen Sie in der dritten Übung wie man solch eine Umsetzung evaluiert und über das Migrationstool durchführt.
 
+Infos bzgl Systemzugriff finden sie [unten](README.md#getting-started-szenario-ca-30-mins).
+
 ### "Getting Started" Szenario (ca. 30 mins)
 
 Sammeln Sie die ersten Erfahrungen mit der SAP Integration Suite. In dieser Übung lernen Sie wie man in der Cloud Integration, einer Funktionalität der SAP Integartion Suite, ein einfaches Integrationsszenario implementiert und testet.
