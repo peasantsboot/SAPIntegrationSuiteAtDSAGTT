@@ -6,14 +6,27 @@ SAP Integration Suite ist SAP’s strategische Integration Platform-as-a-Service
 
 Mehr Infos finden Sie [hier](https://help.sap.com/docs/integration-suite/sap-integration-suite/what-is-sap-integration-suite).
 
-## Übungen
-
-Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung:
+Wir stellen Ihnen drei Übungen bzgl. der SAP Integration Suite zur Verfügung, hier eine kurze Übersicht, Details finden Sie unten:
 - Für den **Einstieg** können Sie die erste Übung machen. Diese Übung wird empfohlen wenn Sie bisher noch keine Erfahrungen mit der SAP Integration Suite gesammelt haben. Hier lernen Sie anhand eines einfachen Szenarios wie man einen sogenannten Integration Flow erstellt, deployed und testet.
 - Falls Sie mit der SAP Integration Suite bereits vertraut sind, lernen Sie in der zweiten Übung welche Schritte notwendig sind um Nachrichten mit der Quality of Service **Exactly Once In Order** zu prozessieren.
 - Haben Sie noch eine **SAP Process Orchestration** im Einsatz und planen den Umstieg auf SAP Integration Suite? Dann lernen Sie in der dritten Übung wie man solch eine Umsetzung evaluiert und über das Migrationstool durchführt.
 
-Infos bzgl. **Systemzugriff** finden sie [unten](#systemzugriff).
+## Systemzugriff
+
+Zur Durchführung der Übungen stellen wir Ihnen einen SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Je nach Übung brauchen Sie nur Zugriff auf den SAP Integration Suite tenant oder noch zusätzlich für den Advanced Event Mesh Broker. Um einen Benutzer für die Systeme und die Zugriffsinformationen zu erhalten, folgen Sie bitte der Anleitung:
+
+1. Öffnen Sie [Trial Area - System Access for Integration Exercises](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQACG-6lyRm1SLANwmWnpog9Af8ON7ob9cFIccx3ncumFxY)
+
+   Passwort für die Liste:
+
+```yaml
+DsagTT2026!
+```
+   
+2. Wählen Sie in der Liste einen der Benutzer der noch nicht vergeben ist.
+3. Markieren Sie dann in der Liste den Benutzer den Sie für die Übungen verwenden werden als "bereits verwendet".
+
+## Übungen
 
 ### "Getting Started" Szenario (ca. 30 mins)
 
@@ -34,21 +47,6 @@ SAP NetWeaver 7.5 und damit SAP Process Integration / SAP Process Orchestration 
 [Modernize and transform your integration to the cloud](https://github.com/SAP-samples/teched2025-IN161)
 
 Viel Spass.
-
-## Systemzugriff
-
-Zur Durchführung der Übungen stellen wir Ihnen einen SAP Integration Suite tenant sowie einen Advanced Event Mesh Broker zur Verfügung. Je nach Übung brauchen Sie nur Zugriff auf den SAP Integration Suite tenant oder noch zusätzlich für den Advanced Event Mesh Broker. Um einen Benutzer für die Systeme und die Zugriffsinformationen zu erhalten, folgen Sie bitte der Anleitung:
-
-1. Öffnen Sie [Trial Area - System Access for Integration Exercises](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQACG-6lyRm1SLANwmWnpog9Af8ON7ob9cFIccx3ncumFxY)
-
-   Passwort für die Liste:
-
-```yaml
-DsagTT2026!
-```
-   
-2. Wählen Sie in der Liste einen der Benutzer der noch nicht vergeben ist.
-3. Markieren Sie dann in der Liste den Benutzer den Sie für die Übungen verwenden werden als "bereits verwendet".
 
 <!--
 **IMPORTANT**
